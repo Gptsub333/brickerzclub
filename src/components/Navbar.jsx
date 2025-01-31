@@ -30,10 +30,10 @@ const Navbar = () => {
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             
             <a
-              href="#"
+              href="#Contact"
               className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
             >
-              Get Started
+              Reach Out
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -58,10 +58,10 @@ const Navbar = () => {
             <div className="py-4 flex justify-center space-x-6 items-center">
               
               <a
-                href="#"
+                href="#Contact"
                 className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
               >
-                Get Started
+                Reach Out
               </a>
             </div>
           </div>

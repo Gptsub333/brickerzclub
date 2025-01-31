@@ -1,10 +1,10 @@
 import { CheckCircle2 } from "lucide-react";
 
-import bitcoin from "../assets/pic1.png";
+import bitcoin from "../assets/pic2.jpg";
 import { checklistItems } from "../constants";
 const Worklfow = () => {
   return (
-    <div className="mt-20" id="Workflow">
+    <div className="mt-20" id="Features">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
        
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
@@ -14,7 +14,7 @@ const Worklfow = () => {
       </h2>
       <div className="flex flex-wrap justify-center">
         <div className="p-2 w-full lg:w-1/2">
-          <img src={bitcoin} alt="" className="pt-12 pb-12 h-full" />
+          <img src={bitcoin} alt="" className="pt-12 pb-12 h-full object-cover" />
         </div>
         <div className="pt-12 w-full lg:w-1/2">
           {checklistItems.map((item, index) => {
