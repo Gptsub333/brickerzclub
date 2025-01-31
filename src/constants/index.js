@@ -153,9 +153,9 @@ export const platformLinks = [
 ];
 
 export const communityLinks = [
-  { href: "#Features", text: "How it Works" },
-  { href: "#Workflow", text: "Features" },
+  { href: "#Workflow", text: "How it Works" },
+  { href: "#Features", text: "Features" },
   { href: "#Testimonials", text: "Testimonials" },
-  { href: "#Pricing", text: "Contact Us" },
+  { href: "#Contact", text: "Contact Us" },
   // { href: "#", text: "Register" },
 ];
